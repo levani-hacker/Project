@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Add to Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="cart-header">
+        <div class="cart-icon">
+            <img src="cart-icon.png" alt="Shopping Cart">
+        </div>
+        <button class="empty-cart-button">Empty Cart</button>
+    </div>
+
+    <div class="cart">
+        <div class="cart-item-header">
+            <span>Image</span>
+            <span>Name</span>
+            <span>Price</span>
+            <span>Qty</span>
+            <span>Action</span>
+        </div>
+        <div class="cart-items">
+
+        </div>
+        <div class="total">
+            Total: <span id="total-price">$0</span>
+        </div>
+    </div>
+
+    <h1>Product List</h1>
+    <div class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <p>Iphone X - $700</p>
+            <button data-product-name="Product 1" data-product-price="700">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <p>Watch - $350</p>
+            <button data-product-name="Product 2" data-product-price="350">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <p>Shous - $105</p>
+            <button data-product-name="Product 3" data-product-price="105">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
